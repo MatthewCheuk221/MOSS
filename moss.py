@@ -148,4 +148,3 @@ print("Query submitted. Waiting for the server's response.\n")
 print(recv_line())
 send("end\n")
 sock.close()
-
