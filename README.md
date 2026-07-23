@@ -192,4 +192,4 @@ This project is released under **The Unlicense**.
 
 You are free to use, modify, publish, compile, sell, or distribute this software, in source code or binary form, for any purpose, commercial or non-commercial.
 
-For more information, see the `LICENSE` file or visit The Unlicense website.
+For more information, see the `LICENSE` file or visit [The Unlicense](https://unlicense.org) website.
