@@ -32,7 +32,7 @@ with your actual MOSS user ID.
 ## Usage
 
 ```bash
-python moss.py [-x] [-l language] [-d] [-b basefile1] ... [-b basefilen] [-m #] [-c "string"] file1 file2 file3 ...
+python3 moss.py [-x] [-l language] [-d] [-b basefile1] ... [-b basefilen] [-m #] [-c "string"] file1 file2 file3 ...
 ```
 
 ## Arguments
@@ -111,25 +111,25 @@ The script currently accepts the following language values:
 ### Submit Python files
 
 ```bash
-python moss.py -l python student1.py student2.py student3.py
+python3 moss.py -l python student1.py student2.py student3.py
 ```
 
 ### Submit Java files with a base file
 
 ```bash
-python moss.py -l java -b starter_code.java A.java B.java C.java
+python3 moss.py -l java -b starter_code.java A.java B.java C.java
 ```
 
 ### Submit files with a comment and custom match limit
 
 ```bash
-python moss.py -l c -m 20 -c "CS101 Assignment 3" main1.c main2.c
+python3 moss.py -l c -m 20 -c "CS101 Assignment 3" main1.c main2.c
 ```
 
 ### Use a custom server and port
 
 ```bash
-python moss.py -s moss.stanford.edu -p 7690 -l python app.py test.py
+python3 moss.py -s moss.stanford.edu -p 7690 -l python app.py test.py
 ```
 
 ## How It Works
