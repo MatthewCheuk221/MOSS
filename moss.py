@@ -13,7 +13,7 @@ port = 7690
 noreq = "Request not sent."
 usage = "usage: moss.py [-x] [-l language] [-d] [-b basefile1] ... [-b basefilen] [-m #] [-c \"string\"] file1 file2 file3 ..."
 
-userid = "your_userid"
+userid = "your_userid" # Fill in your "userid"
 
 # Default options
 opt_l = "c"
